@@ -28,7 +28,8 @@ INSTALLED_APPS = [
     'django_extensions', #Great packaged to access abstract models
     'django_filters', #Used with DRF
     'rest_framework', #DRF package
-    'core', # New app
+    'core', # System Managment app
+    'amazon' #Amazon Clon APis
 ]
 
 MIDDLEWARE = [
