@@ -27,7 +27,9 @@ When you clone this project, you will be by default in the ``develop`` branch.
 
 First Switch to a feature branch you have created locally like : ``user-profiles-migration``, ``loing-api`` or ``register-api`` or ``add-product``
 
-When you are in the feature branch, continue with the below steps
+> NB : Do not push code or merge code into the following branch ``develop, authentication, migrations``
+
+When you are in the feature branch, continue with the steps below
 
 
 ## Steps/Commands
@@ -122,6 +124,40 @@ Next when the installation is done, run:
 ``
 npm run dev
 ``
+
+# Userful Git Commands
+
+> Creating and Switching a new Branch :``git checkout -b branch-nambe``
+
+> Creating a branch online and setting an upstream link: ``git push -u origin branch-name``
+
+> Pushing updates to an existing branch: ``git push``
+
+> Switching to a local branch or a remote branch :``git checkout branch-name``
+
+> Merging changes into a branch : ``git merge source-branch`
+
+> Fetching new branches created by other : ``git fetch --all``
+
+> Fetching updates made to a branch : ``git pull``
+
+
+>Note: Visit this cheatsheet for more commands [here](https://education.github.com/git-cheat-sheet-education.pdf).
+
+
+# Documentations
+
+1) Django Docs [here](https://docs.djangoproject.com/en/4.2/)
+ 
+2) Django-extensions [here](https://django-extensions.readthedocs.io/en/latest/index.html)
+
+3) Django Rest Framework [here](https://www.django-rest-framework.org/)
+
+4) Vite For React [here](https://vitejs.dev/guide/)
+
+5) React Docs [here](https://react.dev/)
+
+6) Django Tutorials [here](https://www.javatpoint.com/django-tutorial)
 
 
 # Where to go from here ?
